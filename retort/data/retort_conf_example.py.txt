@@ -1,0 +1,8 @@
+from example.database.foo import ExampleBase, engine
+
+TARGETS = [
+    {
+        'engine': engine,
+        'metadata': ExampleBase.metadata
+    }
+]

@@ -1,0 +1,10 @@
+nose
+sqlalchemy
+pymysql
+psycopg2
+alembic
+autopep8
+invoke
+flake8
+tox
+twine
