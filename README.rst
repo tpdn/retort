@@ -2,6 +2,8 @@
 ===========
 Retort
 ===========
+.. image:: https://travis-ci.org/tpdn/retort.svg?branch=setup_travis-ci
+    :target: https://travis-ci.org/tpdn/retort
 
 Retort is a schema migration tool for
 `SQLAlchemy <https://www.sqlalchemy.org>`__, compares DB schema against
