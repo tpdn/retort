@@ -1,0 +1,19 @@
+language: python
+
+services:
+  - mysql
+  - postgresql
+
+python:
+  - 3.3
+  - 3.4
+  - 3.5
+  - 3.6
+
+env:
+  matrix:
+    - TARGET_DIALECT=mysql DB_USER='travis' DB_PASSWORD=''
+    - TARGET_DIALECT=postgresql DB_USER='postgres' DB_PASSWORD=''
+
+script:
+  - nosetests
